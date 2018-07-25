@@ -10,7 +10,7 @@
         </ol>
     </div>
     <div class="sidebar-module">
-        <h4>Elsewhere</h4>
+        <h4>Other sites</h4>
         <ol class="list-unstyled">
             <li><a href="<?= get_option('github'); ?>">GitHub</a></li>
             <li><a href="<?= get_option('twitter'); ?>">Twitter</a></li>
