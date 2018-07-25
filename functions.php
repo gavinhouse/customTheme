@@ -69,4 +69,4 @@ add_action('admin_init', 'custom_settings_page_setup');
 add_theme_support('post-thumbnails');
 
 //Create new image size for posts
-    add_image_size('single-image', 350, 250);
+    add_image_size('single-image', 434);

@@ -20,6 +20,15 @@ h6, .h6 {
   color: #333;
 }
 
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*
  * Override Bootstrap's default container.
@@ -152,6 +161,7 @@ h6, .h6 {
 .blog-post {
   margin-top: 30px;
   margin-bottom: 60px;
+
 }
 .blog-post-title {
   margin-bottom: 5px;
