@@ -161,7 +161,7 @@ h6, .h6 {
 
 .blog-post {
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 
 }
 .blog-post-title {
@@ -215,6 +215,10 @@ blockquote:before {
   left: -5px;
   top: -10px;
   color: #7a7a7a;
+}
+
+.about-page {
+  margin-bottom: 60px;
 }
 
 .about-header {
