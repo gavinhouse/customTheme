@@ -3,9 +3,14 @@
  * Globals
  */
 
+html{
+   background-color: #f9f9f9;
+ }
+
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+  background-color: #ededed;
 }
 
 h1, .h1,
@@ -187,7 +192,7 @@ h6, .h6 {
   padding: 40px 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #6f6f6f;
   border-top: 1px solid #e5e5e5;
 }
 .blog-footer p:last-child {
@@ -222,7 +227,7 @@ blockquote:before {
 }
 
 .about-header {
-  background-color: #0A246A;
+  background-image: url(http://dev.test.local/wp-content/themes/customTheme/images/star_field_full_gal.jpg);
   margin-left: -100%;
   margin-right: -90%;
   padding-top: 30px;
