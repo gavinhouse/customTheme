@@ -24,5 +24,3 @@
     </div>
 
     <div class="container">
-
-    <br />
