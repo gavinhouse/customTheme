@@ -1,6 +1,6 @@
 <div class="about-page">
     <div class="about-header">
-        <h2 class="about-title"><?php the_title(); ?> Me</h2>
+        <h2 class="about-title"><?php the_title(); ?></h2>
     </div>
     <div class="about-content">
         <?php if (has_post_thumbnail()){
