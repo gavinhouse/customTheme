@@ -8,7 +8,7 @@
 get_header();
 ?>
 <div class="about-header">
-    <h2 class="about-title"><?php the_title(); ?></h2>
+    <h2 class="about-title">Home</h2>
 </div>
     <div class="main">
 
@@ -23,7 +23,7 @@ get_header();
       </div>
       <div class="right-sidebar"><?php get_sidebar(); ?></div>
       <div class="page-foot">
-
+        
         <nav>
             <ul class="pager">
                 <li><?php next_posts_link( 'Previous' ); ?></li>
