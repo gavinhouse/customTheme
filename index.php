@@ -7,14 +7,12 @@
  */
 get_header();
 ?>
-
+<div class="about-header">
+    <h2 class="about-title"><?php the_title(); ?></h2>
+</div>
     <div class="main">
 
-      <div class="page-head">
-        <div class="about-header">
-            <h2 class="about-title">Gavin's Blog</h2>
-        </div>
-      </div>
+      <div class="page-head"></div>
       <div class="left-sidebar"></div>
       <div class="main-content">
         <?php
