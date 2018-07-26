@@ -226,8 +226,8 @@ blockquote:before {
 
 .about-header {
   background-image: url(http://dev.test.local/wp-content/themes/customTheme/images/star_field_full_gal.jpg);
-  margin-left: -100%;
-  margin-right: -90%;
+  margin-left: -80%;
+  margin-right: -80%;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
