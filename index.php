@@ -22,17 +22,18 @@ get_header();
       endwhile; ?>
       </div>
       <div class="right-sidebar"><?php get_sidebar(); ?></div>
-      <div class="page-foot">
-        
-        <nav>
-            <ul class="pager">
-                <li><?php next_posts_link( 'Previous' ); ?></li>
-                <li><?php previous_posts_link( 'Next' ); ?></li>
-            </ul>
-        </nav>
+      <div class="left-foot">
+        <ul>
+          <li><?php next_posts_link( 'Previous' ); ?></li>
+        </ul>
+      </div>
+      <div class="page-foot"></div>
+      <div class="right-foot">
+        <ul>
+          <li><?php previous_posts_link( 'Next' ); ?></li>
+        </ul>
 
-        <?php endif; ?>
-
+          <?php endif; ?>
       </div>
 
     </div>
