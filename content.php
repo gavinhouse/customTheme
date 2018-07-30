@@ -15,7 +15,7 @@
         <?php the_excerpt(); ?>
     <?php } ?>
     <form action="<?php the_permalink(); ?>">
-        <input class="btn btn-dark" type="submit" value="Read More" />
+        <input class="btn btn-dark" type="submit" value="Read More →" />
     </form>
 
     <hr>
