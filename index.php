@@ -12,7 +12,6 @@ get_header();
 </div>
     <div class="main">
 
-      <div class="page-head"></div>
       <div class="left-sidebar"></div>
 
       <div class="main-content">

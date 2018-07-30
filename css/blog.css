@@ -243,7 +243,7 @@ hr{
 
 .main{
   display: grid;
-
+  grid-template-columns: 1fr 2fr 1fr;
   grid-auto-rows: minmax(150px, auto);
   grid-gap: 30px;
   margin-left: -10%;
@@ -253,7 +253,7 @@ hr{
 .left-sidebar{
   text-align: center;
   grid-column: 1 / 2;
-  grid-row: 2 / 3;
+  grid-row: 1 / 2;
 
 }
 .left-sidebar img{
