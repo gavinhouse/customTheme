@@ -14,26 +14,29 @@ get_header();
 
       <div class="page-head"></div>
       <div class="left-sidebar"></div>
+
       <div class="main-content">
         <?php
         if(have_posts()) : while(have_posts()) : the_post();
 
-        get_template_part('content',get_post_format());
-      endwhile; ?>
+          get_template_part('content',get_post_format());
+        endwhile; ?>
       </div>
+
       <div class="right-sidebar"><?php get_sidebar(); ?></div>
+
       <div class="left-foot">
         <ul>
-          <li><?php next_posts_link( 'Previous' ); ?></li>
+          <li><?php previous_posts_link( 'Newer' ); ?></li>
         </ul>
       </div>
       <div class="page-foot"></div>
+
       <div class="right-foot">
         <ul>
-          <li><?php previous_posts_link( 'Next' ); ?></li>
+          <li><?php next_posts_link( 'Older' ); ?></li>
         </ul>
-
-          <?php endif; ?>
+        <?php endif; ?>
       </div>
 
     </div>
